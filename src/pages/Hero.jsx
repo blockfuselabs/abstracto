@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Abstracto from "../assets/images/robot-arm-amico.svg"
 
 const Hero = () => {

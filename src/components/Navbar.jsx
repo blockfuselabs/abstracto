@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
@@ -22,14 +22,14 @@ const Navbar = () => {
         <nav className="hidden md:flex space-x-8">
           <Link to="/" className="hover:text-gray-400">About</Link>
           <Link to="/" className="hover:text-gray-400">Features</Link>
-          <Link to="/" className="hover:text-gray-400">Documentation</Link>
+          <Link to="/documentation" className="hover:text-gray-400">Documentation</Link>
           <Link to="/" className="hover:text-gray-400">Community</Link>
         </nav>
 
         {/* "Launch" Button */}
         <div className="hidden md:block">
           <Link
-            to="/launch"
+            to=""
             className="px-4 py-3 bg-[#BF64E7] rounded-md hover:opacity-75 transition-colors"
           >
             Launch CLI
