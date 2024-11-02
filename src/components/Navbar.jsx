@@ -29,7 +29,7 @@ const Navbar = () => {
         {/* "Launch" Button */}
         <div className="hidden md:block">
           <Link
-            to="/documentation"
+            to=""
             className="px-4 py-3 bg-[#BF64E7] rounded-md hover:opacity-75 transition-colors"
           >
             Launch CLI

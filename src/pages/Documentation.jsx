@@ -24,9 +24,11 @@ const Documentation = () => {
         </div>
         <p className=" p-4 text-xl">to initialised a new abstracto project run this command on your terminal</p>
         <div className="border  bg-slate-100 py-1 px-3 w-2/4 mt-4 rounded-xl">
-        <Snippet size="sm" className="flex text-lg text-slate-800 items-center gap-4">abstrato init</Snippet>
+        <Snippet size="sm" className="flex text-lg text-slate-800 items-center gap-4">abstracto init &lt;project-name&gt; 
+        </Snippet>
 
         </div>
+        <p>This will create a new abstracto project </p>
 
       </div>
     </div>
